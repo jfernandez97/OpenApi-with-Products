@@ -1,0 +1,8 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+server:
+  port: ${PORT:5000}
